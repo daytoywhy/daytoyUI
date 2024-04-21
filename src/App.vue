@@ -122,13 +122,15 @@
   </el-row>
   <h1>断点隐藏类</h1>
   <el-row>
-    <el-col class="hidden-xs-only grid-content bg-purple-light" :span="12"></el-col>
+    <el-col class="hidden-xs-only" :span="12">
+      <div class="grid-content bg-purple-light"></div>
+    </el-col>
   </el-row>
 </template>
 
 <script setup>
-import ElCol from '@/components/element/Col.vue'
-import ElRow from './components/element/Row.vue'
+// import ElCol from '@/components/element/Col/src/Col.js'
+// import ElRow from '@/components/element/Row/src/Row.js'
 </script>
 
 <style lang="scss" scoped>
